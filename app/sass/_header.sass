@@ -1,0 +1,67 @@
+/* header */
+.header
+	background: url('../img/header/header-bg.jpg') center top no-repeat
+	padding-top: 17px
+
+	&__left
+		margin-right: 39px
+
+	&__logo
+		max-width: 160px
+
+	&__center
+		margin-right: 98px
+
+	&__name
+		font-family: $muller-bold
+		color: $white
+		font-size: 16px
+		margin-bottom: 17px
+		margin: 0
+
+	&__menu
+		list-style: none
+		padding: 0
+		margin: 0
+
+		&-item
+			margin-right: 20px
+
+			&:last-child
+				margin-right: 0
+
+		&-link
+			font-family: $muller-bold
+			color: $white
+			text-decoration: none
+			position: relative
+
+			&:hover
+				&::after
+					content: ''
+					position: absolute
+					bottom: -7px
+					left: 0
+					width: 100%
+					height: 1px
+					background: $white
+
+	&__right
+
+	&__tel
+		font-family: $muller-bold
+		color: $white
+		font-size: 24px
+		margin-bottom: 5px
+
+	&__call
+		font-family: $muller
+		color: $white
+		font-size: 14px
+		cursor: pointer
+		text-align: right
+
+		&:hover
+			text-decoration: underline
+
+@import "offer"
