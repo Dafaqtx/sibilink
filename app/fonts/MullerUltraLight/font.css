@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MullerUltraLight';
+  src: url('MullerUltraLight.eot');
+  src: url('MullerUltraLight.woff2') format('woff2'),
+       url('MullerUltraLight.woff') format('woff'),
+       url('MullerUltraLight.ttf') format('truetype'),
+       url('MullerUltraLight.svg#MullerUltraLight') format('svg'),
+       url('MullerUltraLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

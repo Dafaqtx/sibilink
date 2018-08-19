@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MullerHeavyItalic';
+  src: url('MullerHeavyItalic.eot');
+  src: url('MullerHeavyItalic.woff2') format('woff2'),
+       url('MullerHeavyItalic.woff') format('woff'),
+       url('MullerHeavyItalic.ttf') format('truetype'),
+       url('MullerHeavyItalic.svg#MullerHeavyItalic') format('svg'),
+       url('MullerHeavyItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

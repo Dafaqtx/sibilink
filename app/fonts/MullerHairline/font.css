@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MullerHairline';
+  src: url('MullerHairline.eot');
+  src: url('MullerHairline.woff2') format('woff2'),
+       url('MullerHairline.woff') format('woff'),
+       url('MullerHairline.ttf') format('truetype'),
+       url('MullerHairline.svg#MullerHairline') format('svg'),
+       url('MullerHairline.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

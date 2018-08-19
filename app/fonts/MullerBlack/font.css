@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MullerBlack';
+  src: url('MullerBlack.eot');
+  src: url('MullerBlack.woff2') format('woff2'),
+       url('MullerBlack.woff') format('woff'),
+       url('MullerBlack.ttf') format('truetype'),
+       url('MullerBlack.svg#MullerBlack') format('svg'),
+       url('MullerBlack.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

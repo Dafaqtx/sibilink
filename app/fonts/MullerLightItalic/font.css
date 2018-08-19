@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MullerLightItalic';
+  src: url('MullerLightItalic.eot');
+  src: url('MullerLightItalic.woff2') format('woff2'),
+       url('MullerLightItalic.woff') format('woff'),
+       url('MullerLightItalic.ttf') format('truetype'),
+       url('MullerLightItalic.svg#MullerLightItalic') format('svg'),
+       url('MullerLightItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
