@@ -1,0 +1,470 @@
+@media screen and (max-width: 1139px)
+	/* header */
+	.header
+
+		&__heading,
+		&__right
+			display: none
+
+		&__center
+			width: 100%
+			margin: 0
+			
+		&__menu
+			display: block
+			width: 100%
+			position: absolute
+			left: 0
+			transform: translateX(-100%)
+			transition: all .3s ease
+			margin-top: 60px
+
+			&-item
+				margin: 0
+				text-align: center
+
+			&-btn
+				width: 190px
+				font-family: $muller-bold
+				font-size: 12px
+				line-height: 28px
+				display: block
+				width: 190px
+				height: 28px
+				margin: 50px auto auto
+				padding: 0 35px 0 0
+				cursor: pointer
+				text-align: right
+				color: $white
+				border: 0
+				border-radius: 5px
+				outline: 0
+				background: url(../img/header/btn-arrow.svg) 16px center no-repeat $royal-blue
+				box-sizing: border-box
+
+				&:hover
+					background: $burnt-sienna
+					transition: background .3s ease
+
+			&--open
+				position: relative
+				transform: translateX(-50%)
+				left: 50%
+				transition: all .3s ease
+
+				& .header__menu-link
+					font-size: 18px
+					line-height: 31px
+
+		&__burger
+			display: block
+			width: 53px
+			height: 53px
+			border: 2px solid $white
+			border-radius: 100%
+			padding: 16px 12px
+			box-sizing: border-box
+			display: flex
+			justify-content: space-between
+			flex-direction: column
+
+			&-line
+				width: 100%
+				height: 3px
+				background: $white
+				transition: all .3s ease
+
+			&--open
+
+				.header__burger-line
+
+					&:first-child
+						height: 2px
+						transition: all .3s ease
+						transform: translate(0px, 7px) rotate(-45deg)
+
+					&:nth-child(2)
+						height: 2px
+						display: none
+						transition: all .3s ease
+
+					&:last-child
+						height: 2px
+						transition: all .3s ease
+						transform: translate(0px, -8px) rotate(45deg)
+
+
+
+		&__left
+			display: flex
+			justify-content: space-between
+			margin: 0
+			width: 100%
+
+	/* offer */
+	.offer
+
+		&__left
+			width: 100%
+			margin: 0
+
+		&__title
+			text-align: center
+			font-size: 18px
+
+		&__sub-title
+			margin: 0
+			text-align: center
+			font-size: 36px
+
+		&__right
+			display: none
+
+		&__btn
+			margin: auto
+			margin-top: 30px
+
+	/* hiw */
+	.hiw
+		margin-top: 40px
+		background: none
+
+		&--wrapper
+			margin: 0
+			margin-top: 30px
+
+	/* catalog */
+	.catalog
+		background: none
+
+		&__items
+			max-width: 100%
+			justify-content: space-between
+
+		&__item
+			margin: 0
+
+	/* call-back */
+	.call-back
+
+		&__form
+			justify-content: space-between
+
+		&__input
+			margin: 0
+
+	/* about */
+	.about
+		background: none
+
+		&__items
+			margin: 0
+			margin-top: 35px
+
+	/* benefits */
+	.benefits
+
+		&__items
+			justify-content: space-between
+			margin-top: 65px
+
+		&__item
+			margin: 0
+
+		& header
+			justify-content: space-between
+
+		&__links
+			margin: 0
+
+	/* choice */
+	.choice
+
+		&__content
+			justify-content: space-between
+
+		&__desc
+			display: none
+
+		&__about
+			margin: 0
+
+	/* sertificate */
+	.sertificate
+
+		&__items
+			justify-content: space-between
+
+		&__item
+			margin: 0 !important
+
+	/* commercial */
+	.commercial
+
+		& header
+			justify-content: space-between
+		
+		&__text
+			margin: 0
+
+		&__form
+			justify-content: space-between
+
+		&__input
+			margin: 0		
+
+	/* footer */
+	.footer
+		background-size: cover
+
+		&__left
+			width: 100%
+			display: flex
+			flex-direction: column
+			align-items: center
+			order: 2
+			margin-top: 30px
+
+		&__center
+			width: 100%
+			order: 1
+			margin: 0
+			display: flex
+			flex-direction: column
+			align-items: center
+
+		&__menu
+			display: block
+			text-align: center
+
+			&-item
+				margin: 0
+				margin-bottom: 15px
+
+		&__location
+			margin: 0
+
+		&__right
+			width: 100%
+			order: 3
+			margin: 0
+			text-align: center
+
+		&__phone
+			margin: 30px 0 0 0
+
+@media screen and (max-width: 1110px)
+	.reviews
+
+		&__items
+			max-width: 630px
+
+		&__img
+			margin: auto
+			margin-bottom: 25px
+
+		&__header
+			justify-content: center
+
+		&__arrow
+
+			&--prev
+				left: -40px
+
+			&--next
+				right: -40px
+
+@media screen and (max-width: 1045px)
+	.about
+
+		&__item
+			flex-direction: column-reverse
+
+		&__info
+			margin: 0 !important
+
+		&__name
+			text-align: center
+			margin-top: 30px
+			margin-bottom: 15px
+
+	.choice
+		background-size: cover
+		padding-bottom: 20px
+
+		&__content
+			display: block
+			padding-bottom: 110px
+
+		&__img
+			margin: auto
+
+			& img
+				margin: auto
+
+		&__details
+			position: absolute
+			bottom: 0
+			left: 50%
+			transform: translateX(-50%)
+			width: 100%
+			align-items: center
+			flex-direction: column
+
+		&__btn
+			margin: 0
+
+		&__about
+			margin: auto
+			margin-top: 20px
+			height: auto
+			padding-bottom: 20px
+
+@media screen and (max-width: 1005px)
+	.catalog
+
+		&__text
+			display: none
+
+@media screen and (max-width: 950px)
+	.hiw
+		padding-bottom: 0
+
+		&__step
+			margin-top: 30px
+			flex-direction: row
+
+		&__info
+			max-width: 100%
+			width: 100%
+			margin-top: 40px !important
+
+		&__img
+			width: 100%
+			margin: auto !important
+
+		&__name,
+		&__text
+			text-align: left
+
+@media screen and (max-width: 915px)
+	.catalog
+
+		&__items
+			display: block
+		
+		&__item
+			margin: auto
+			margin-bottom: 55px
+
+			&:last-child
+				margin: auto
+				margin-bottom: 0
+
+	.call-back
+		background: linear-gradient(353.13deg, #6AA5F4 3.19%, #2B7FEE 98.02%)
+		margin-bottom: 0
+
+		&__title
+			max-width: 100%
+			margin-bottom: 38px
+
+	.benefits
+		margin-top: 0
+
+		&__items
+			display: block
+		
+		&__item
+			margin: auto
+			margin-bottom: 50px
+
+			&:last-child
+				margin: auto
+
+		&__img
+
+			& img
+				margin: auto
+
+	.commercial
+		background: linear-gradient(352.15deg, #6AA5F4 3.19%, #2B7FEE 98.02%)
+
+		& header
+			flex-direction: column
+
+		&__title,
+		&__text
+			color: $white
+			margin-bottom: 30px
+
+		&__form
+			margin-top: 30px
+			flex-direction: column
+			align-items: center
+
+		&__input
+			margin-bottom: 30px
+
+		&__submit
+			margin-top: 10px
+			
+@media screen and (max-width: 815px)
+	.call-back
+
+		&__form
+			flex-direction: column
+			align-items: center
+
+		&__input
+			margin-bottom: 35px
+
+		&__submit
+			margin-top: 10px
+
+@media screen and (max-width: 767px)
+	.catalog
+		margin-top: 100px
+
+		& header
+			flex-direction: column
+
+		&__info
+			margin-top: 30px
+
+	.benefits
+
+		&__header
+			padding: 39px 0
+			margin-bottom: 65px
+
+		& header
+			display: block
+
+		&__link
+			display: block
+			margin: 0
+			margin-bottom: 40px
+
+			&:last-child
+				margin-bottom: 0
+
+	.sertificate
+		padding-bottom: 30px
+
+		&__img
+
+			& img
+				margin: auto
+
+		&__desc
+			max-width: 100%
+			margin-top: 35px
+			font-size: 14px
+
+	.reviews
+		padding-top: 70px
+
+		&__items
+			width: 100%
+			margin-top: 40px

@@ -3,11 +3,17 @@
 	background: url('../img/header/header-bg.jpg') center top no-repeat
 	padding-top: 17px
 
+	&__full-height
+		height: 100vh
+		
 	&__left
 		margin-right: 39px
 
 	&__logo
 		max-width: 160px
+
+	&__burger
+		display: none
 
 	&__center
 		margin-right: 98px
@@ -27,8 +33,11 @@
 		&-item
 			margin-right: 20px
 
-			&:last-child
+			&:nth-child(6)
 				margin-right: 0
+
+		&-btn
+			display: none
 
 		&-link
 			font-family: $muller-bold

@@ -37,6 +37,7 @@
 	
 
 	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="https://www.sipnet.ru/bundles/artsoftemain/css/webrtc_client.css" />
 
 </head>
 
@@ -47,14 +48,34 @@
 			<div class="header__top flex flex__align-middle">
 				<div class="header__left">
 					<div class="header__logo">
-						<a href="#">
-							<img src="img/header/logo.svg" alt="Naviset"></a>
-						</div>
+						<a href="#"><img src="img/header/logo.svg" alt="Naviset"></a>
+					</div>
+					<!-- /.header__logo -->
+
+					<div class="header__burger">
+							<div class="header__burger-line"></div>
+							<div class="header__burger-line"></div>
+							<div class="header__burger-line"></div>
+					</div>
+					<!-- /.header__burger -->
+
 				</div>
 				<!-- /.header__left -->
 
 				<div class="header__center">
-					<h1 class="header__name">GSM модуль для ворот “Домовой IP”</h1>
+					
+					<div class="header__heading flex flex__align-justify">
+						<h1 class="header__name">GSM модуль для ворот “Домовой IP”</h1>
+						<div class="fw-container__step__form__design-btn__body">
+							<label for="design-btn-3" class="fw-container__step__form__design-btn__label js-start_client_call fwcontainer__step__form__design-btn__label--3"
+						 style="background-color: #0060C4" data-token="8R5W51S28848
+						 ZFYWZVD74UW7YJF42J95" data-dtmf="on" data-lang="ru">
+							<span class="js-text_call" style="color: #FFFFFF;">Позвонить</span>
+							<span class="fw-container__step__form__design-btn__label__icon2"></span>
+							</label>
+							<div class="fw-container__step__form__design-btn__button js-dtmf_button" style="background-color: #0060C4;"></div>
+						</div>						 
+					</div>
 					<nav class="header__menu flex">
 						<li class="header__menu-item"><a href="#" class="header__menu-link">Каталог</a></li>
 						<li class="header__menu-item"><a href="#" class="header__menu-link">О продукции</a></li>
@@ -62,7 +83,10 @@
 						<li class="header__menu-item"><a href="#" class="header__menu-link">Отзывы</a></li>
 						<li class="header__menu-item"><a href="#" class="header__menu-link">Контакты</a></li>
 						<li class="header__menu-item"><a href="#" class="header__menu-link">Поддержка</a></li>
+						<a href="#" class="header__menu-btn">Войти в систему</a>
 					</nav>
+					<!-- /.header__menu -->
+
 				</div>
 				<!-- /.header__center -->
 
@@ -439,7 +463,7 @@
 						Вся наша продукция имеет необходимые сертификаты и соответствует техническим нормам производства.
 					</div>
 				</header>
-				<div class="sertificate__items flex">
+				<div class="sertificate__items js-sertificate-slider flex">
 					<div class="sertificate__item">
 						<div class="sertificate__img"><img src="img/sertificate/sertificate.jpg" alt=""></div>
 					</div>
@@ -614,8 +638,6 @@
 		</div>
 	</footer>
 	<!-- /.footer -->
-
-
 
 	<script src="js/scripts.min.js"></script>
 
