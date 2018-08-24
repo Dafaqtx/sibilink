@@ -3,7 +3,6 @@ $(function() {
 	$(document).ready(function() {
 
 		//header menu
-
 		$('.header__burger').on('click', function() {
 			$(this).toggleClass('header__burger--open');
 			$('.header__menu').toggleClass('header__menu--open');
@@ -52,7 +51,26 @@ $(function() {
         return slider.slick(settings);
       }
     });
-  };
+	};
+	
+	$('.accordion__item--active').find('.accordion__content').slideDown()
+	// accordion
+	$('body').on('click', '.accordion__item', function() {
+
+			if ( $(this).hasClass('accordion__item--active') ) {
+				$(this).removeClass('accordion__item--active');
+				$(this).find('.accordion__content').slideUp();
+
+			} else {
+				$('.accordion__item').removeClass('accordion__item--active')
+				$('.accordion__item').find('.accordion__content').slideUp()
+				$(this).addClass('accordion__item--active');
+				$(this).find('.accordion__content').slideDown()
+			}
+		
+			
+
+	});
 
 });
 

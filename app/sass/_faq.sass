@@ -1,0 +1,42 @@
+@import "accordion"
+
+/* faq */
+.faq
+	margin-top: 45px
+	margin-bottom: 90px
+
+	&__accordion
+		margin-top: 70px
+		margin-left: 47px
+
+		&-list
+			list-style: none
+			padding: 0
+			margin: 0
+
+		&-item
+			margin-bottom: 14px
+			cursor: pointer
+
+			&.accordion__item--active
+
+				& .faq__accordion-title
+					background: url('../img/faq/negative.svg') left center no-repeat
+
+		&-title
+			color: $chambray
+			font-size: 18px
+			line-height: 37px
+			padding-left: 49px
+			height: 35px
+			background: url('../img/faq/plus.svg') left center no-repeat
+
+		&-content
+			display: none
+			color: $dove-gray
+			font-size: 14px
+			line-height: 18px
+			margin-left: 49px
+			margin-top: 6px
+
+			
