@@ -46,8 +46,7 @@ gulp.task('styles', function() {
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
-		'app/libs/slick-carousel/slick/slick.min.js',
-		'app/js/common.js',
+		'app/libs/slick-carousel/slick/slick.min.js'
 		])
 	.pipe(concat('scripts.min.js'))
 	// .pipe(uglify())
@@ -107,6 +106,9 @@ gulp.task('build', ['clean', 'img', 'styles', 'js'], function() {
 	.pipe(gulp.dest('dist/js'))
 
 	var buildHtml = gulp.src('app/*.html')
+	.pipe(gulp.dest('dist'));
+
+	var buildPhp = gulp.src('app/*.php')
 	.pipe(gulp.dest('dist'));
 
 });
