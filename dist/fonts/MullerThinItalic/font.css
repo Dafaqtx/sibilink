@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MullerThinItalic';
+  src: url('MullerThinItalic.eot');
+  src: url('MullerThinItalic.woff2') format('woff2'),
+       url('MullerThinItalic.woff') format('woff'),
+       url('MullerThinItalic.ttf') format('truetype'),
+       url('MullerThinItalic.svg#MullerThinItalic') format('svg'),
+       url('MullerThinItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MullerBlackItalic';
+  src: url('MullerBlackItalic.eot');
+  src: url('MullerBlackItalic.woff2') format('woff2'),
+       url('MullerBlackItalic.woff') format('woff'),
+       url('MullerBlackItalic.ttf') format('truetype'),
+       url('MullerBlackItalic.svg#MullerBlackItalic') format('svg'),
+       url('MullerBlackItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

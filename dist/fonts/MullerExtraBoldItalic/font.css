@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MullerExtraBoldItalic';
+  src: url('MullerExtraBoldItalic.eot');
+  src: url('MullerExtraBoldItalic.woff2') format('woff2'),
+       url('MullerExtraBoldItalic.woff') format('woff'),
+       url('MullerExtraBoldItalic.ttf') format('truetype'),
+       url('MullerExtraBoldItalic.svg#MullerExtraBoldItalic') format('svg'),
+       url('MullerExtraBoldItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

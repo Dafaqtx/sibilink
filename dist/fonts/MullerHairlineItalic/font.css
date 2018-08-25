@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MullerHairlineItalic';
+  src: url('MullerHairlineItalic.eot');
+  src: url('MullerHairlineItalic.woff2') format('woff2'),
+       url('MullerHairlineItalic.woff') format('woff'),
+       url('MullerHairlineItalic.ttf') format('truetype'),
+       url('MullerHairlineItalic.svg#MullerHairlineItalic') format('svg'),
+       url('MullerHairlineItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
