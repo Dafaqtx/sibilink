@@ -75,7 +75,7 @@
 </section> 
 <!-- /.hiw -->
 
-<section class="catalog">
+<section id="catalog" class="catalog">
 	<div class="container column">
 		<header class="flex flex__align-justify">
 			<h2 class="title catalog__title">Каталог товаров</h2>
@@ -169,7 +169,7 @@
 </section>
 <!-- /.call-back -->
 
-<section class="about">
+<section id="about" class="about">
 	<div class="container column">
 		<header>
 			<h2 class="title about__title">О продукции</h2>
@@ -331,7 +331,7 @@
 </section>
 <!-- /.choice -->
 
-<section class="sertificate">
+<section id="sertificate" class="sertificate">
 	<div class="container column">
 		<header class="flex">
 			<h2 class="title sertificate__title">Сертификаты</h2>
@@ -369,7 +369,7 @@
 </section>
 <!-- /.commercial -->
 
-<section class="reviews">
+<section id="reviews" class="reviews">
 	<div class="container column">
 		<header>
 			<h2 class="title reviews__title">Отзывы клиентов</h2>

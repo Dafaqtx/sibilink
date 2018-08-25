@@ -48,7 +48,7 @@
 			<div class="header__top flex flex__align-middle">
 				<div class="header__left">
 					<div class="header__logo">
-						<a href="#"><img src="img/header/logo.svg" alt="Naviset"></a>
+						<a href="/"><img src="img/header/logo.svg" alt="Naviset"></a>
 					</div>
 					<!-- /.header__logo -->
 
@@ -76,12 +76,12 @@
 						</div>						 
 					</div>
 					<nav class="header__menu flex">
-						<li class="header__menu-item"><a href="#" class="header__menu-link">Каталог</a></li>
-						<li class="header__menu-item"><a href="#" class="header__menu-link">О продукции</a></li>
-						<li class="header__menu-item"><a href="#" class="header__menu-link">Сертификаты</a></li>
-						<li class="header__menu-item"><a href="#" class="header__menu-link">Отзывы</a></li>
-						<li class="header__menu-item"><a href="#" class="header__menu-link">Контакты</a></li>
-						<li class="header__menu-item"><a href="#" class="header__menu-link">Поддержка</a></li>
+						<li class="header__menu-item"><a href="#catalog" class="header__menu-link">Каталог</a></li>
+						<li class="header__menu-item"><a href="#about" class="header__menu-link">О продукции</a></li>
+						<li class="header__menu-item"><a href="#sertificate" class="header__menu-link">Сертификаты</a></li>
+						<li class="header__menu-item"><a href="#reviews" class="header__menu-link">Отзывы</a></li>
+						<li class="header__menu-item"><a href="#footer" class="header__menu-link">Контакты</a></li>
+						<li class="header__menu-item"><a href="/faq.php" class="header__menu-link">Поддержка</a></li>
 						<a href="#" class="header__menu-btn">Войти в систему</a>
 					</nav>
 					<!-- /.header__menu -->

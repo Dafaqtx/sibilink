@@ -1,7 +1,7 @@
 </main>
 <!-- /.main -->
 
-	<footer class="footer">
+	<footer id="footer" class="footer">
 		<div class="container column">
 			<div class="footer--wrapper flex">
 				<div class="footer__left">
@@ -17,12 +17,12 @@
 	
 				<div class="footer__center">
 					<nav class="footer__menu flex">
-						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Каталог</a></li>
-						<li class="footer__menu-item"><a href="#" class="footer__menu-link">О продукции</a></li>
-						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Сетификаты</a></li>
-						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Отзывы</a></li>
-						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Контакты</a></li>
-						<li class="footer__menu-item"><a href="#" class="footer__menu-link">Поддержка</a></li>
+						<li class="footer__menu-item"><a href="#catalog" class="footer__menu-link">Каталог</a></li>
+						<li class="footer__menu-item"><a href="#about" class="footer__menu-link">О продукции</a></li>
+						<li class="footer__menu-item"><a href="#sertificate" class="footer__menu-link">Сетификаты</a></li>
+						<li class="footer__menu-item"><a href="#reviews" class="footer__menu-link">Отзывы</a></li>
+						<li class="footer__menu-item"><a href="#footer" class="footer__menu-link">Контакты</a></li>
+						<li class="footer__menu-item"><a href="/faq.php" class="footer__menu-link">Поддержка</a></li>
 					</nav>
 					<div class="footer__location">644020, г. Омск, ул.Рождественского, д.4</div>
 				</div>
